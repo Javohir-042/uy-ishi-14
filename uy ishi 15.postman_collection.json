@@ -1,0 +1,452 @@
+{
+	"info": {
+		"_postman_id": "b570174f-5c97-452c-a07a-e9ba2f90eb21",
+		"name": "uy ishi 15",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46116029",
+		"_collection_link": "https://javohir-4734146.postman.co/workspace/Javohir's-Workspace~2422f181-7f95-4401-8e69-9a121b3983f3/collection/46116029-b570174f-5c97-452c-a07a-e9ba2f90eb21?action=share&source=collection_link&creator=46116029"
+	},
+	"item": [
+		{
+			"name": "dokon",
+			"item": [
+				{
+					"name": "post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\":\"Suhrob dokoni\",\n    \"adminid\" : \"6\"\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/dokon",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"dokon"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/get",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"get"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getById",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/getbyid/dokon/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"getbyid",
+								"dokon",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "patch",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\":\"Akfa\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/patch/dokon/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"patch",
+								"dokon",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/delete/dokon/3",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"delete",
+								"dokon",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Jasur\",\n    \"age\": 19\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/admin",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"admin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/get",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"get"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getById",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/getbyid/admin/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"getbyid",
+								"admin",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "patch",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Sobir\",\n    \"age\": 45\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/patch/admin/3",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"patch",
+								"admin",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/delete/admin/4",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"delete",
+								"admin",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "account",
+			"item": [
+				{
+					"name": "post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"olma\",\n    \"adminid\": \"6\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/account",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"account"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/get",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"get"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getById",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/getbyid/account/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"getbyid",
+								"account",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "patch",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"banana\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/patch/account/2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"patch",
+								"account",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/postgres/delete/account/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postgres",
+								"delete",
+								"account",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
